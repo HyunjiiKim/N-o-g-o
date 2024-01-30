@@ -115,17 +115,18 @@
         justify-content: flex-end;
         align-items: center;
     }
+    
+        #menu li{
+            margin-left: 15px;
+        }
 
     nav a{
         text-decoration: none;
-        color: rgba(244,249,244,70);
+        color: rgba(32,21,24,0.5);
     }
 
-        nav a.current{
+        nav a#current{
             color:#F4F4F4;
-            font-weight: bolder;
+            font-weight: bold;
         }
 
-    #menu li{
-        margin-left: 15px;
-    }
