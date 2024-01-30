@@ -1,0 +1,132 @@
+/*Color*/
+
+    /*Background Color*/
+
+    .WhiteBG{
+        background-color: #F4F9F4;
+    }
+
+    .PrimaryBG1{
+        background-color: #5C8D89;
+    }
+
+    .PrimaryBG2{
+        background-color: #74B49B;
+    }
+
+    .PrimaryBG3{
+        background-color: #A7D7C5;
+    }
+
+    .AccentBG1{
+        background-color: #FF4D4D;
+    }
+
+    .AccentBG2{
+        background-color: #FF8364;
+    }
+
+    .AccentBG3{
+        background-color: #FDB87D;
+    }
+
+/*Text Color*/
+
+    .Black{
+        color: #101415
+    }
+    
+    .White{
+        color: #F4F9F4;
+    }
+
+    .Primary1{
+        color: #5C8D89;
+    }
+
+    .Primary2{
+        color: #74B49B;
+    }
+
+    .Primary3{
+       color: #A7D7C5;
+    }
+
+    .Accent1{
+        color: #FF4D4D;
+    }
+
+    .Accent2{
+        color: #FF8364;
+    }
+
+    .Accent3{
+        color: #FDB87D;
+    }
+
+/*Font*/
+
+.H1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 72pt;
+}
+
+.H2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 48pt;
+}
+
+.H3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 32pt;
+}
+
+.H4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24pt;
+}
+
+.H5{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18pt;
+}
+
+.para{
+    font-family: Cambria, Cochin;
+    font-size: 16pt;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+
+/*Header*/
+
+#menu{
+    margin:0;
+    height: 100px;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+    #menu li{
+        margin-left: 15px;
+    }
+
+nav a{
+    text-decoration: none;
+    color: rgba(32,21,24,0.5);
+}
+
+    nav a#current{
+        color:#F4F4F4;
+        font-weight: bold;
+    }
+
