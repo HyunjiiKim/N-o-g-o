@@ -67,42 +67,88 @@
 /*Font*/
 
 .H1{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Monda;
     font-size: 72pt;
 }
 
 .H2{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Cambira;
     font-size: 48pt;
 }
 
 .H3{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Monda;
     font-size: 32pt;
 }
 
 .H4{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Cambria;
     font-size: 24pt;
 }
 
 .H5{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Monda;
     font-size: 18pt;
 }
 
 .para{
-    font-family: Cambria, Cochin;
+    font-family: Poly;
     font-size: 16pt;
 }
 
-.italic{
-    font-style: italic;
-}
+    /*Add New Font*/
 
-.bold{
-    font-weight: bold;
-}
+        /*Monda*/
+
+            @font-face {
+                font-family: Monda;
+                src: url('/Users/hyunjikim/Documents/CMW 23:24/S1/Néo géo/Monda/webfontkit-20240202-163044/monda-regular-webfont.woff') format('woff');
+                font-weight: normal;
+                font-style: normal;
+            }
+
+            @font-face {
+                font-family: Monda;
+                src: url('/Users/hyunjikim/Documents/CMW 23:24/S1/Néo géo/Monda/webfontkit-20240202-163044/monda-bold-webfont.woff') format('woff');
+                font-weight: bold;
+                font-style: normal;
+            }
+
+        /*Poly*/
+
+            @font-face {
+                font-family: Poly;
+                src: url('/Users/hyunjikim/Documents/CMW 23:24/S1/Néo géo/Poly/webfontkit-20240202-163949/poly-regular-webfont.woff') format('woff');
+                font-weight: normal;
+                font-style: normal;
+            }
+
+            @font-face {
+                font-family: Poly;
+                src: url('/Users/hyunjikim/Documents/CMW 23:24/S1/Néo géo/Poly/webfontkit-20240202-163949/poly-italic-webfont.woff') format('woff');
+                font-weight: normal;
+                font-style: italic;
+            }
+
+    /*Text Style*/
+
+        .italic{
+            font-style: italic;
+        }
+
+        .bold{
+            font-weight: bold;
+        }
+
+    /*Text Alignment*/
+
+    .Tcenter{
+        text-align: center;
+    }
+
+    .TLeft{
+        text-align: left;
+    }
 
 
 /*Header*/
@@ -120,6 +166,10 @@
         margin-left: 15px;
     }
 
+        #menu li:last-child{
+            margin-right: 30px;
+        }
+    
 nav a{
     text-decoration: none;
     color: rgba(32,21,24,0.5);
@@ -152,4 +202,8 @@ img{
     flex-direction: column;
     justify-content: center;
     flex-shrink: 0;
+}
+
+a{
+    text-decoration: none;
 }
