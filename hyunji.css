@@ -98,18 +98,18 @@
 
     /*Add New Font*/
 
-        /*Monda*/
+            /*Monda*/
 
             @font-face {
                 font-family: Monda;
-                src: url('/Users/hyunjikim/Documents/CMW 23:24/S1/Néo géo/Monda/webfontkit-20240202-163044/monda-regular-webfont.woff') format('woff');
+                src: url('https://hyunjiikim.github.io/m1cmwneogeo/Monda/Monda-Regular.ttf');
                 font-weight: normal;
                 font-style: normal;
             }
 
             @font-face {
                 font-family: Monda;
-                src: url('/Users/hyunjikim/Documents/CMW 23:24/S1/Néo géo/Monda/webfontkit-20240202-163044/monda-bold-webfont.woff') format('woff');
+                src: url('https://hyunjiikim.github.io/m1cmwneogeo/Monda/Monda-Bold.ttf');
                 font-weight: bold;
                 font-style: normal;
             }
@@ -118,16 +118,18 @@
 
             @font-face {
                 font-family: Poly;
-                src: url('/Users/hyunjikim/Documents/CMW 23:24/S1/Néo géo/Poly/webfontkit-20240202-163949/poly-regular-webfont.woff') format('woff');
+                src: url('https://hyunjiikim.github.io/m1cmwneogeo/Poly/Poly-Regular.tff');
                 font-weight: normal;
                 font-style: normal;
             }
 
             @font-face {
                 font-family: Poly;
-                src: url('/Users/hyunjikim/Documents/CMW 23:24/S1/Néo géo/Poly/webfontkit-20240202-163949/poly-italic-webfont.woff') format('woff');
+                src: url('https://hyunjiikim.github.io/m1cmwneogeo/Poly/Poly-Italic.ttf');
                 font-weight: normal;
                 font-style: italic;
+            }
+
             }
 
     /*Text Style*/
