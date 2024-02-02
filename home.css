@@ -102,14 +102,14 @@
 
                 @font-face {
                     font-family: Monda;
-                    src: url(../Monda/webfontkit-20240202-163044/monda-regular-webfont.woff) format('woff');
+                    src: url('https://hyunjiikim.github.io/m1cmwneogeo/Monda/webfontkit-20240202-163044/monda-regular-webfont.woff') format('woff');
                     font-weight: normal;
                     font-style: normal;
                 }
 
                 @font-face {
                     font-family: Monda;
-                    src: url(../Monda/webfontkit-20240202-163044/monda-bold-webfont.woff) format('woff');
+                    src: url('https://hyunjiikim.github.io/m1cmwneogeo/Monda/webfontkit-20240202-163044/monda-bold-webfont.woff') format('woff');
                     font-weight: bold;
                     font-style: normal;
                 }
@@ -118,14 +118,14 @@
 
                 @font-face {
                     font-family: Poly;
-                    src: url(../Poly/webfontkit-20240202-163949/poly-regular-webfont.woff) format('woff');
+                    src: url('https://hyunjiikim.github.io/m1cmwneogeo/Poly/webfontkit-20240202-163949/poly-regular-webfont.woff') format('woff');
                     font-weight: normal;
                     font-style: normal;
                 }
 
                 @font-face {
                     font-family: Poly;
-                    src: url(../Poly/webfontkit-20240202-163949/poly-italic-webfont.woff) format('woff');
+                    src: url('https://hyunjiikim.github.io/m1cmwneogeo/Poly/webfontkit-20240202-163949/poly-italic-webfont.woff') format('woff');
                     font-weight: normal;
                     font-style: italic;
                 }
