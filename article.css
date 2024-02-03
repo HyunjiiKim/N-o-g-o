@@ -118,7 +118,7 @@
 
             @font-face {
                 font-family: Poly;
-                src: url('https://hyunjiikim.github.io/m1cmwneogeo/Poly/Poly-Regular.tff');
+                src: url('https://hyunjiikim.github.io/m1cmwneogeo/Poly/Poly-Regular.ttf');
                 font-weight: normal;
                 font-style: normal;
             }
@@ -173,7 +173,7 @@
     
 nav a{
     text-decoration: none;
-    color: rgba(32,21,24,0.5);
+    color: rgba(244,249,244,0.8);
 }
 
     nav a#current{
