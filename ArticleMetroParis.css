@@ -82,7 +82,7 @@
 }
 
 .H4{
-    font-family: Cambria;
+    font-family: Poly;
     font-size: 24pt;
 }
 
@@ -94,6 +94,7 @@
 .para{
     font-family: Poly;
     font-size: 16pt;
+    margin: 60px auto;
 }
 
     /*Add New Font*/
@@ -118,7 +119,7 @@
 
             @font-face {
                 font-family: Poly;
-                src: url('https://hyunjiikim.github.io/m1cmwneogeo/Poly/Poly-Regular.tff');
+                src: url('https://hyunjiikim.github.io/m1cmwneogeo/Poly/Poly-Regular.ttf');
                 font-weight: normal;
                 font-style: normal;
             }
@@ -173,13 +174,76 @@
     
 nav a{
     text-decoration: none;
-    color: rgba(32,21,24,0.5);
+    color: rgba(244,249,244,0.8);
 }
 
     nav a#current{
+        text-decoration: none;
         color:#F4F4F4;
         font-weight: bold;
     }
 
 
 /*Section*/
+
+section{
+    margin-bottom: 60px;
+}
+
+.Category{
+    margin: 105px 50px 60px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+section h4{
+    margin-left: 20px;
+}
+
+section a{
+    text-decoration: none;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+    /*Para1*/
+
+    .paragraphCenter{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+        #Paris1{
+            width: 320px;
+            height: 240px;
+        }
+
+    /*Para2*/
+
+    .paragraphLeft{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        margin: auto;
+    }
+
+    .box2{
+        width:500px;
+    }
+
+    #Paris2{
+        width: 420px;
+        height: 340px;
+    }
+
+    .paragraphLeft img{
+        order: 2;
+    }
