@@ -191,41 +191,86 @@ nav a{
 
 /*Section*/
 
-.paragraphCenter{
+section{
+    margin-bottom: 60px;
+    margin: auto;
+}
+
+.Category{
+    margin: 105px 50px 60px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+section h4{
+    margin-left: 20px;
+}
+
+section a{
+    text-decoration: none;
+}
+
+figure{
+    display: flex;
+    flex-direction: column;
+}
+
+.content{
+    width: 1110px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 20px auto;
+    padding: 0;
 }
 
-.paragraphLeft{
+.paragraphLeft, .paragraphRight{
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 20px;
-    margin: auto;
+    margin: 20px auto;
+    padding: 0;
 }
 
-    .paragraphLeft::img{
-        order: 2;
-    }
+.paragraphLeft figure{
+    order: 2;
+}
 
-.paragraphRight{
+.paragraphCenter{
+    margin: 20px auto;
     display: flex;
-    flex-direction: center;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    padding: 20px;
-    margin: auto;
 }
 
-    .paragraphRight img{
-        order: 1;
-    }
-
-    .paragraphRight .para{
-        width: 500px;
-        margin-left: 30px;  
-    }
+    /*Paragrh*/
 
  
+    .p1 img{
+            height: auto;
+            width: 400px;
+            }
+        
+
+
+     /*Biblio*/
+
+
+     .source{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 20px auto 60px;
+        max-width: 1110px;
+    }
+
+        .source a{
+            text-decoration: none;
+        }
+
+        .source ul{
+            margin-top: 0px;
+        }
+
