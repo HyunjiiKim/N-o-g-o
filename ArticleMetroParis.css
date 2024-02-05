@@ -248,7 +248,7 @@ section a{
     margin: auto;
 }
 
-    .paragraphRight::img{
+    .paragraphRight:img{
         order: 2;
     }
 
