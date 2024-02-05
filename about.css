@@ -240,8 +240,9 @@ nav a{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: auto;
     margin: auto;
+    width: 1110px;
 }
 
     .paragraphLeft img{
@@ -250,11 +251,12 @@ nav a{
 
 .paragraphRight{
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: auto;
     margin: auto;
+    width: 1110px;
 }
 
     .paragraphRight img{
@@ -265,3 +267,24 @@ nav a{
         width: 500px;
         margin-left: 30px;  
     }
+
+figure{
+    
+    text-align: center;
+    font-family: Monda;
+    font-size: 14pt;
+}
+
+    /*Para2*/
+
+        .para2 img{
+            width: 400px;
+            height: 280px;
+        }
+
+    /*Para4*/
+
+        .para4 img{
+            width: 650px;
+            height: 400px;
+        }
