@@ -333,5 +333,7 @@ figure{
             }
 
             .source .para{
-                margin: 0px auto 60px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 80px;
             }
