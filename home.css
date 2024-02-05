@@ -84,6 +84,7 @@
 .H4{
     font-family: Poly;
     font-size: 24pt;
+    margin-bottom: 50px;
 }
 
     .H4Monda{
@@ -199,7 +200,7 @@ nav a{
     }
 
     img{
-        width: 600px;
-        height: 420px;
-        margin: 200px auto 50px;
+        width: auto;
+        height: 900px;
+        margin: 100px auto 50px;
     }
