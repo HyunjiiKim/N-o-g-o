@@ -305,10 +305,18 @@ figure{
 
     /*Comparaison*/
 
-        .img2, .img3 img{
+        #compar1, .img3 img{
             width: 190px;
             height: 160px;
         }
+
+            #compar1{
+                table-layout: initial;
+                margin-right: auto;
+                margin-left: auto;
+            }
+
+
 
 
      /*Biblio*/
