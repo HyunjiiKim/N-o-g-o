@@ -241,15 +241,15 @@ section a{
 
 .paragraphRight{
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: center;
     justify-content: center;
     align-items: center;
     padding: 20px;
     margin: auto;
 }
 
-    .paragraphRight img{
-        order: 1;
+    .paragraphRight::img{
+        order: 2;
     }
 
     .paragraphRight .para{
