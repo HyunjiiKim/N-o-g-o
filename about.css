@@ -224,6 +224,12 @@ nav a{
             }
         }
 
+#gif{
+    margin: 30px auto;
+    width: fit-content;
+}
+
+
 .BoxSimple{
     margin: 30px auto;
     width: 1110px;
