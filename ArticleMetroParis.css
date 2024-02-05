@@ -86,6 +86,11 @@
     font-size: 24pt;
 }
 
+    .H4Monda{
+        font-family: Monda;
+        font-size: 24pt;
+    }
+
 .H5{
     font-family: Monda;
     font-size: 18pt;
@@ -211,14 +216,49 @@ section a{
 }
 
 
+.boxcenter{
+    width: 974px;
+}
+
+.paragraphCenter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragraphLeft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: auto;
+}
+
+    .paragraphLeft img{
+        order: 2;
+    }
+
+.paragraphRight{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: auto;
+}
+
+    .paragraphRight img{
+        order: 1;
+    }
+
+    .paragraphRight .para{
+        width: 500px;
+        margin-left: 30px;  
+    }
+
     /*Para1*/
 
-    .paragraphCenter{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
 
         #Paris1{
             width: 320px;
@@ -227,23 +267,47 @@ section a{
 
     /*Para2*/
 
-    .paragraphLeft{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 20px;
-        margin: auto;
-    }
 
-    .box2{
-        width:500px;
-    }
+        .box2{
+            width:500px;
+        }
 
-    #Paris2{
-        width: 420px;
-        height: 340px;
-    }
+        #Paris2{
+            width: 420px;
+            height: 340px;
+        }
 
-    .paragraphLeft img{
-        order: 2;
-    }
+   
+
+    /*Para3*/
+
+        #Paris3{
+            width: 380px;
+            height: 300px;
+        }
+
+    /*Para4*/
+
+        #Paris4{
+            width: 400px;
+            height: 400px;
+
+        }
+
+
+    /*Para5*/
+        
+        #Paris5{
+            width: 480px;
+            height: 330px;
+        }
+
+    /*Biblio*/
+        
+        .source{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            width: 932px;
+            margin: auto;
+        }

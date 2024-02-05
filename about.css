@@ -82,9 +82,14 @@
 }
 
 .H4{
-    font-family: Monda;
+    font-family: Poly;
     font-size: 24pt;
 }
+
+    .H4Monda{
+        font-family: Monda;
+        font-size: 24pt;
+    }
 
 .H5{
     font-family: Monda;
@@ -94,6 +99,7 @@
 .para{
     font-family: Poly;
     font-size: 16pt;
+    margin: 60px auto;
 }
 
     /*Add New Font*/
@@ -118,7 +124,7 @@
 
             @font-face {
                 font-family: Poly;
-                src: url('https://hyunjiikim.github.io/m1cmwneogeo/Poly/Poly-Regular.tff');
+                src: url('https://hyunjiikim.github.io/m1cmwneogeo/Poly/Poly-Regular.ttf');
                 font-weight: normal;
                 font-style: normal;
             }
@@ -173,41 +179,89 @@
     
 nav a{
     text-decoration: none;
-    color: rgba(32,21,24,0.5);
+    color: rgba(244,249,244,0.8);
 }
 
     nav a#current{
+        text-decoration: none;
         color:#F4F4F4;
         font-weight: bold;
     }
 
 /*Section*/
 
-.MoveLR{
-    animation-name: MoveLR;
-    animation-duration: 20s;
+
+.Title{
+    margin: 50px auto;
 }
 
-    @keyframes MoveLR{
-        from{
-            transform: translateX(-100%);
-        }
-        to{
-            transform: translateX(center)
-        }
+    .MoveLR{
+        animation-name: MoveLR;
+        animation-duration: 10s;
     }
 
-.MoveRL{
-    animation-name: MoveRL;
-    animation-duration: 20s;
-}
-    
+        @keyframes MoveLR{
+            from{
+                transform: translateX(-100%);
+            }
+            to{
+                transform: translateX(center)
+            }
+        }
 
-    @keyframes MoveRL{
-        from{
-            transform: translateX(100%);
+    .MoveRL{
+        animation-name: MoveRL;
+        animation-duration: 10s;
+    }
+        
+
+        @keyframes MoveRL{
+            from{
+                transform: translateX(100%);
+            }
+            to{
+                transform: translateX(center);
+            }
         }
-        to{
-            transform: translateX(center);
-        }
+
+.BoxSimple{
+    margin: 30px auto;
+    width: 1110px;
+}
+
+.paragraphCenter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragraphLeft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: auto;
+}
+
+    .paragraphLeft img{
+        order: 2;
+    }
+
+.paragraphRight{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: auto;
+}
+
+    .paragraphRight img{
+        order: 1;
+    }
+
+    .paragraphRight .para{
+        width: 500px;
+        margin-left: 30px;  
     }

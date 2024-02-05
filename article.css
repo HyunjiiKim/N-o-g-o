@@ -82,9 +82,14 @@
 }
 
 .H4{
-    font-family: Cambria;
+    font-family: Poly;
     font-size: 24pt;
 }
+
+    .H4Monda{
+        font-family: Monda;
+        font-size: 24pt;
+    }
 
 .H5{
     font-family: Monda;
@@ -94,6 +99,7 @@
 .para{
     font-family: Poly;
     font-size: 16pt;
+    margin: 60px auto;
 }
 
     /*Add New Font*/
@@ -177,12 +183,32 @@ nav a{
 }
 
     nav a#current{
+        text-decoration: none;
         color:#F4F4F4;
         font-weight: bold;
     }
 
 
 /*Section*/
+
+    section{
+        margin-bottom: 60px;
+    }
+
+    .Category{
+        margin: 105px 50px 60px;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    section h4{
+        margin-left: 20px;
+    }
+
+    section a{
+        text-decoration: none;
+    }
+
 
     img{
         width:340px;
@@ -204,9 +230,3 @@ nav a{
         justify-content: center;
         flex-shrink: 0;
     }
-
-    a{
-        text-decoration: none;
-    }
-
- 
