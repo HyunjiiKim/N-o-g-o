@@ -85,7 +85,7 @@ font-size: 46pt;
 }
 
 h3{
-font-family: Monda;
+font-family: Rubik;
 font-size: 32pt;
 }
 
@@ -95,20 +95,15 @@ font-size: 24pt;
 margin-bottom: 50px;
 }
 
-.H4Monda{
-    font-family: Monda;
-    font-size: 24pt;
-}
 
 h5{
 font-family: Monda;
 font-size: 18pt;
 }
 
-p{
+p, .para{
 font-family: Poly;
-font-size: 16pt;
-margin: 60px auto;
+font-size: 14pt;
 }
 
 /*Add New Font*/
@@ -219,92 +214,163 @@ nav a#current{
 
 /*Section*/
 
-section{
-    margin-bottom: 60px;
+
+.Title{
+    margin: 20px auto;
 }
 
-.Category{
-    margin: 105px 50px 60px;
-    display: flex;
-    justify-content: flex-start;
-}
+    .MoveLR{
+        animation-name: MoveLR;
+        animation-duration: 5s;
+    }
 
-section h4{
-    margin-left: 20px;
-}
+        @keyframes MoveLR{
+            from{
+                transform: translateX(-100%);
+            }
+            to{
+                transform: translateX(center)
+            }
+        }
 
-section a{
-    text-decoration: none;
-}
+    .MoveRL{
+        animation-name: MoveRL;
+        animation-duration: 5s;
+    }
+        
 
-.content{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
+        @keyframes MoveRL{
+            from{
+                transform: translateX(100%);
+            }
+            to{
+                transform: translateX(center);
+            }
+        }
+
+        #gif{
+            width: 1000px;
+            margin: auto;
+        }
+
+            #gif img{
+                width: 100%;
+                height: auto;
+            }
 
 
-.boxcenter{
-    width: 974px;
-}
-
-.paragraphCenter{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.BoxSimple{
+    margin: 30px auto;
+    width: 1000px;
 }
 
 .paragraphLeft{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: auto;
     margin: auto;
+    width: 1000px;
+    flex-grow: 1;
+    flex-shrink: 1;
 }
 
-    .paragraphLeft img{
-        order: 2;
+    .paragraphLeft .img{
+        width: 60%;
+        height: auto;
+    }
+
+        .paragraphLeft :nth-child(2){
+            order: -1;
+        }
+
+        .paragraphLeft .img img{
+            width: 100%;
+            height: 100%;
+        }
+
+    .paragraphLeft .text{
+        width: 35%; 
     }
 
 .paragraphRight{
     display: flex;
-    flex-direction: center;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: auto;
     margin: auto;
+    width: 1000px;
+    flex-grow: 1;
+    flex-shrink: 1;
 }
 
-    .paragraphRight:img{
-        order: 2;
+    .paragraphRight .img{
+        width: 60%;
+        height: auto;
     }
 
-    .paragraphRight .para{
-        width: 500px;
-        margin-left: 30px;  
+        .paragraphRight :nth-child(1){
+            order: -1;
+        }
+
+        .paragraphRight .img img{
+            width: 100%;
+            height: 100%;
+        }
+
+    .paragraphRight .text{
+        width: 35%; 
     }
 
-   
- 
+figure{
+    
+    text-align: center;
+    font-family: Monda;
+    font-size: 14pt;
+}
+
+    /*Para2*/
+
+        .para2 img{
+            width: 400px;
+            height: 280px;
+        }
+
+
+    /*Comparaison*/
+
+        #compar1, .img3 img{
+            width: 190px;
+            height: 160px;
+        }
+
+            #compar1{
+                table-layout: initial;
+                margin-right: auto;
+                margin-left: auto;
+            }
+
+
+
+
      /*Biblio*/
 
-     .source{
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        margin: 20px auto 60px;
-    }
-
-        .source a{
-            text-decoration: none;
+           .source{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            margin: 20px auto 60px;
         }
 
-        .source ul{
-            margin-top: 0px;
-        }
+            .source a{
+                text-decoration: none;
+            }
 
-       
+            .source ul{
+                margin-top: 0px;
+            }
+
+        
     /*Footer*/
 
     footer{
