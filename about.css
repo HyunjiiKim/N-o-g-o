@@ -1,168 +1,195 @@
+/*General Setting*/
+
+body{
+    width: 1280px;
+    margin: 0 auto;
+}
+
+
 /*Color*/
 
-    /*Background Color*/
+/*Background Color*/
 
-    .WhiteBG{
-        background-color: #F4F9F4;
-    }
+.WhiteBG{
+    background-color: #F4F9F4;
+}
 
-    .PrimaryBG1{
-        background-color: #5C8D89;
-    }
+.PrimaryBG1{
+    background-color: #5C8D89;
+}
 
-    .PrimaryBG2{
-        background-color: #74B49B;
-    }
+.PrimaryBG2{
+    background-color: #74B49B;
+}
 
-    .PrimaryBG3{
-        background-color: #A7D7C5;
-    }
+.PrimaryBG3{
+    background-color: #A7D7C5;
+}
 
-    .AccentBG1{
-        background-color: #FF4D4D;
-    }
+.AccentBG1{
+    background-color: #FF4D4D;
+}
 
-    .AccentBG2{
-        background-color: #FF8364;
-    }
+.AccentBG2{
+    background-color: #FF8364;
+}
 
-    .AccentBG3{
-        background-color: #FDB87D;
-    }
+.AccentBG3{
+    background-color: #FDB87D;
+}
 
 /*Text Color*/
 
-    .Black{
-        color: #101415
-    }
-    
-    .White{
-        color: #F4F9F4;
-    }
+.Black{
+    color: #101415
+}
 
-    .Primary1{
-        color: #5C8D89;
-    }
+.White{
+    color: #F4F9F4;
+}
 
-    .Primary2{
-        color: #74B49B;
-    }
+.Primary1{
+    color: #5C8D89;
+}
 
-    .Primary3{
-       color: #A7D7C5;
-    }
+.Primary2{
+    color: #74B49B;
+}
 
-    .Accent1{
-        color: #FF4D4D;
-    }
+.Primary3{
+   color: #A7D7C5;
+}
 
-    .Accent2{
-        color: #FF8364;
-    }
+.Accent1{
+    color: #FF4D4D;
+}
 
-    .Accent3{
-        color: #FDB87D;
-    }
+.Accent2{
+    color: #FF8364;
+}
+
+.Accent3{
+    color: #FDB87D;
+}
 
 /*Font*/
 
-.H1{
-    font-family: Monda;
-    font-size: 72pt;
+h1{
+font-family: Monda;
+font-size: 72pt;
 }
 
-.H2{
-    font-family: Monda;
-    font-size: 48pt;
+h2{
+font-family: Rubik;
+font-size: 46pt;
 }
 
-.H3{
-    font-family: Monda;
-    font-size: 32pt;
+h3{
+font-family: Monda;
+font-size: 32pt;
 }
 
-.H4{
-    font-family: Poly;
+h4{
+font-family: Poly;
+font-size: 24pt;
+margin-bottom: 50px;
+}
+
+.H4Monda{
+    font-family: Monda;
     font-size: 24pt;
 }
 
-    .H4Monda{
-        font-family: Monda;
-        font-size: 24pt;
-    }
-
-.H5{
-    font-family: Monda;
-    font-size: 18pt;
+h5{
+font-family: Monda;
+font-size: 18pt;
 }
 
-.para{
-    font-family: Poly;
-    font-size: 16pt;
-    margin: 60px auto;
+p{
+font-family: Poly;
+font-size: 16pt;
+margin: 60px auto;
 }
 
-    /*Add New Font*/
+/*Add New Font*/
 
-            /*Monda*/
+        /*Monda*/
 
-            @font-face {
-                font-family: Monda;
-                src: url('https://hyunjiikim.github.io/m1cmwneogeo/Monda/Monda-Regular.ttf');
-                font-weight: normal;
-                font-style: normal;
-            }
+        @font-face {
+            font-family: Monda;
+            src: url('https://hyunjiikim.github.io/m1cmwneogeo/Monda/Monda-Regular.ttf');
+            font-weight: normal;
+            font-style: normal;
+        }
 
-            @font-face {
-                font-family: Monda;
-                src: url('https://hyunjiikim.github.io/m1cmwneogeo/Monda/Monda-Bold.ttf');
-                font-weight: bold;
-                font-style: normal;
-            }
+        @font-face {
+            font-family: Monda;
+            src: url('https://hyunjiikim.github.io/m1cmwneogeo/Monda/Monda-Bold.ttf');
+            font-weight: bold;
+            font-style: normal;
+        }
 
-        /*Poly*/
+    /*Poly*/
 
-            @font-face {
-                font-family: Poly;
-                src: url('https://hyunjiikim.github.io/m1cmwneogeo/Poly/Poly-Regular.ttf');
-                font-weight: normal;
-                font-style: normal;
-            }
+        @font-face {
+            font-family: Poly;
+            src: url('https://hyunjiikim.github.io/m1cmwneogeo/Poly/Poly-Regular.ttf');
+            font-weight: normal;
+            font-style: normal;
+        }
 
-            @font-face {
-                font-family: Poly;
-                src: url('https://hyunjiikim.github.io/m1cmwneogeo/Poly/Poly-Italic.ttf');
-                font-weight: normal;
-                font-style: italic;
-            }
-
-
-    /*Text Style*/
-
-        .italic{
+        @font-face {
+            font-family: Poly;
+            src: url('https://hyunjiikim.github.io/m1cmwneogeo/Poly/Poly-Italic.ttf');
+            font-weight: normal;
             font-style: italic;
         }
 
-        .bold{
-            font-weight: bold;
+    /*RubikScribble*/
+
+        @font-face {
+            font-family: Rubik;
+            src: url('https://hyunjiikim.github.io/m1cmwneogeo/Rubik_Scribble/RubikScribble-Regular.ttf');
         }
 
-    /*Text Alignment*/
 
-    .Tcenter{
-        text-align: center;
+/*Text Style*/
+
+    .italic{
+        font-style: italic;
     }
 
-    .TLeft{
-        text-align: left;
+    .bold{
+        font-weight: bold;
     }
+
+/*Text Alignment*/
+
+.Tcenter{
+    text-align: center;
+}
+
+.TLeft{
+    text-align: left;
+}
+
+
 
 
 /*Header*/
 
+header{
+    width: 1000px;
+    height: 80px;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: static;
+}
+
 #menu{
-    margin:0;
-    height: 100px;
+    margin: 0;
     list-style: none;
     display: flex;
     justify-content: flex-end;
@@ -178,15 +205,17 @@
         }
     
 nav a{
-    text-decoration: none;
-    color: rgba(244,249,244,0.8);
+font-family: Monda;
+font-weight: bold;
+font-size: 18pt;
+text-decoration: none;
+color: rgba(244,249,244,0.8);
 }
 
-    nav a#current{
-        text-decoration: none;
-        color:#F4F4F4;
-        font-weight: bold;
-    }
+nav a#current{
+    color:#F4F4F4;
+    font-weight: bold;
+}
 
 /*Section*/
 

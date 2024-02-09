@@ -81,7 +81,7 @@ h1{
 
 h2{
     font-family: Rubik;
-    font-size: 48pt;
+    font-size: 46pt;
 }
 
 h3{
@@ -147,9 +147,9 @@ p{
 
         /*RubikScribble*/
 
-            @font-face{
+            @font-face {
                 font-family: Rubik;
-                src: url('https://hyunjiikim.github.io/m1cmwneogeo/Rubik_Scribble/RubikScribble_Regular.ttf');
+                src: url('https://hyunjiikim.github.io/m1cmwneogeo/Rubik_Scribble/RubikScribble-Regular.ttf');
             }
 
 
@@ -174,32 +174,45 @@ p{
     }
 
 
+
+
 /*Header*/
 
-#menu{
-    margin:0;
-    height: 100px;
-    list-style: none;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-    #menu li{
-        margin-left: 15px;
+    header{
+        width: 1000px;
+        height: 80px;
+        margin: auto;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        position: static;
     }
 
-        #menu li:last-child{
-            margin-right: 30px;
+    #menu{
+        margin: 0;
+        list-style: none;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+        #menu li{
+            margin-left: 15px;
         }
-    
+
+            #menu li:last-child{
+                margin-right: 30px;
+            }
+        
 nav a{
+    font-family: Monda;
+    font-weight: bold;
+    font-size: 18pt;
     text-decoration: none;
     color: rgba(244,249,244,0.8);
 }
 
     nav a#current{
-        text-decoration: none;
         color:#F4F4F4;
         font-weight: bold;
     }
@@ -207,39 +220,46 @@ nav a{
 /*Section*/
 
     section{
-        display: grid;
+        display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: 100px;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        width: 1000px;
     }
 
-    #Map{
-        width: auto;
-        height: 900px;
-        margin: 100px auto 50px;
-    }
-    
-    figure{
-        display: flex;
-        flex-direction: column;
+    #Map img{
+        width: 603px;
+        height: auto;
         margin: 0;
-        box-sizing: content-box;
     }
 
-        .iconT{
-            font-family: Monda;
-            font-size: 14pt;
-            margin: 0 auto auto;
+
+            /*BTN*/
+
+            #BTN{
+                text-decoration: none;
+                color: inherit;
+            }
+
+            .BTN{
+                border-radius: 12px;
+                margin: 60px auto ;
+            }
+
+                .BTN p{
+                    padding: 13px 39px;
+                    margin: auto;
         }
-    figure img{
-       width: 50px;
-       height: auto;
-    }
 
 /*Footer*/
 
     footer{
         width: 1000px;
         height: 120px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
