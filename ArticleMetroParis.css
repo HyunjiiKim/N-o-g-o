@@ -348,3 +348,14 @@ section a{
             margin-top: 0px;
         }
 
+       
+    /*Footer*/
+
+    footer{
+        width: 1000px;
+        height: 120px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
