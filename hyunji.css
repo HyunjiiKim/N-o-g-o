@@ -5,6 +5,10 @@ body{
     margin: 0 auto;
 }
 
+section{
+    width: 1000px;
+    margin: auto;
+}
 
 /*Color*/
 
@@ -108,7 +112,7 @@ font-size: 18pt;
 p{
 font-family: Poly;
 font-size: 16pt;
-margin: 60px auto;
+margin: auto;
 }
 
 /*Add New Font*/
@@ -219,18 +223,11 @@ nav a#current{
 
 /*Section*/
 
-figure{
-    font-family: Monda;
-    font-size: 16pt;
-    text-align: center;
-}
-
 .photo{
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
+    display: inline-block;
     margin: 0;
     padding:0;
+    position: relative;
 }
 
     .photo img{
@@ -239,21 +236,36 @@ figure{
         margin:0;
     }
 
+    .photo figcaption{
+        font-family: Rubik;
+        font-size: 22pt;
+        top: 78%;
+        left: 32%;
+        position: absolute;
+        transform: translate(50%,50%);
+        z-index: 1;
+    }
+
+.text{
+    width: 40%;
+    margin: auto;
+}
+
 .icon{
     display: flex;
     margin:auto;
 }
 
     .icon img{
-        height: 100px;
-        width: 100px;
+        height: 50px;
+        width: 50px;
         box-sizing: content-box;
     }
 
-section{
+.section{
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    flex-direction: row-reverse;
+    justify-content: space-between;
 }
 
        
