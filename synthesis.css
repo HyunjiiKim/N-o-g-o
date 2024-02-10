@@ -5,6 +5,9 @@ body{
     margin: 0 auto;
 }
 
+section{
+    width: 1000px;
+}
 
 /*Color*/
 
@@ -91,19 +94,21 @@ font-size: 32pt;
 
 h4{
 font-family: Poly;
-font-size: 20pt;
+font-size: 24pt;
 margin-bottom: 50px;
 }
-
 
 h5{
 font-family: Monda;
 font-size: 18pt;
+text-align: right;
+margin: 0;
 }
 
-p, .para{
+p{
 font-family: Poly;
-font-size: 14pt;
+font-size: 16pt;
+margin: 60px auto;
 }
 
 /*Add New Font*/
@@ -214,142 +219,47 @@ nav a#current{
 
 /*Section*/
 
-.Category{
-    width: 1000px;
-    margin: 105px auto 60px;
-    display: flex;
-    justify-content: flex-start;
-}
-
-    .Category h4{
-        margin-right: 20px;
-    }
-
-    .Category h4 a{
-        text-decoration: none;
-        color: inherit;
-    }
-
-
-.Title{
-    margin: 20px auto;
-}
-
-    .MoveLR{
-        animation-name: MoveLR;
-        animation-duration: 5s;
-    }
-
-
-.paragraphCenter{
-    width: 1000px;
-    margin: auto;
+section{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    flex-grow: 1;
+    align-items: center;
     flex-wrap: wrap;
-}
-
-    .paragraphCenter:first-child{
-        order:0;
-    }
-    .paragraphCenter:last-child{
-        order:2;
-    }
-
-.paragraphLeft{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: auto;
-    margin: auto;
+    margin: 0 auto;
     width: 1000px;
-    flex-grow: 1;
-    flex-shrink: 1;
 }
 
-    .paragraphLeft .img{
-        width: 60%;
-        height: auto;
-    }
+#Map img{
+    width: 603px;
+    height: auto;
+    margin: 0;
+}
 
-        .paragraphLeft :nth-child(2){
-            order: -1;
+
+        /*BTN*/
+
+        #BTN{
+            text-decoration: none;
+            color: inherit;
         }
 
-        .paragraphLeft .img img{
-            width: 100%;
-            height: 100%;
+        .BTN{
+            border-radius: 12px;
+            margin: 60px auto ;
         }
 
-    .paragraphLeft .text{
-        width: 35%; 
+            .BTN p{
+                padding: 13px 39px;
+                margin: auto;
     }
 
-.paragraphRight{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: auto;
-    margin: auto;
+/*Footer*/
+
+footer{
     width: 1000px;
-    flex-grow: 1;
-    flex-shrink: 1;
+    height: 120px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
-    .paragraphRight .img{
-        width: 60%;
-        height: auto;
-    }
-
-        .paragraphRight :nth-child(1){
-            order: -1;
-        }
-
-        .paragraphRight .img img{
-            width: 100%;
-            height: 100%;
-        }
-
-    .paragraphRight .text{
-        width: 35%; 
-    }
-
-figure{
-    
-    text-align: center;
-    font-family: Monda;
-    font-size: 14pt;
-}
-
-
-
-     /*Biblio*/
-
-           .source{
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-            margin: 20px auto 60px;
-        }
-
-            .source a{
-                text-decoration: none;
-            }
-
-            .source ul{
-                margin-top: 0px;
-            }
-
-        
-    /*Footer*/
-
-    footer{
-        width: 1000px;
-        height: 120px;
-        margin: auto;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
